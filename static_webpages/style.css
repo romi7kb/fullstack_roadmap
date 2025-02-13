@@ -5,6 +5,7 @@ body {
   font-family: "Poppins", serif;
   background-color: #232830;
 }
+
 header {
   color: white;
   display: flex;
@@ -12,6 +13,7 @@ header {
   align-items: center;
   padding: 10px 20px;
 }
+
 footer {
   border-top: 2px solid #4d4d4d;
   color: white;
@@ -20,6 +22,7 @@ footer {
   align-items: center;
   padding: 10px 20px;
 }
+
 .menu {
   padding-right: 200px;
   padding-top: 75px;
@@ -27,11 +30,13 @@ footer {
   list-style: none;
   gap: 10px;
 }
+
 .menu li a {
   text-decoration: none;
   font-size: 24px;
   color: white;
 }
+
 .menu-bawah {
   color: #909090;
   padding-top: 108px;
@@ -40,37 +45,41 @@ footer {
   list-style: none;
   gap: 36px;
 }
+
 .menu-bawah a {
   color: #909090;
   text-decoration: none;
   font-style: italic;
   font-size: 27px;
 }
+
 .menu-bawah a:last-child {
-  background: linear-gradient(
-    to right,
-    rgba(149, 149, 149, 1),
-    rgba(149, 149, 149, 0.5)
-  );
+  background: linear-gradient(to right,
+      rgba(149, 149, 149, 1),
+      rgba(149, 149, 149, 0.5));
   background-clip: text;
   color: transparent;
   transition: background 0.3s;
 }
+
 .judul {
   display: flex;
   font-size: 30px;
   padding-top: 75px;
   padding-left: 200px;
 }
+
 .banner {
   display: grid;
   margin-top: 73px;
   place-items: center;
 }
+
 .bannerp {
   color: white;
   font-size: 29px;
 }
+
 .jud {
   margin-top: 40px;
   margin-bottom: 17px;
@@ -78,12 +87,14 @@ footer {
   font-size: 71px;
   font-style: italic;
 }
+
 .div-menubawah {
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .card-container {
   display: grid;
   justify-self: center;
@@ -92,6 +103,7 @@ footer {
   margin-right: 218px;
   gap: 37px;
 }
+
 .card {
   position: relative;
   padding-top: 26px;
@@ -104,12 +116,14 @@ footer {
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
 }
+
 .card img {
   margin-left: 26px;
   margin-right: 26px;
   width: 337px;
   height: 160px;
 }
+
 .card-title {
   margin-top: 33px;
   font-size: 19px;
@@ -117,12 +131,14 @@ footer {
   padding-left: 26px;
   padding-right: 26px;
 }
+
 .card-description {
   margin-top: 13px;
   font-size: 16px;
   padding-left: 26px;
   padding-right: 26px;
 }
+
 .card-footer {
   position: absolute;
   bottom: 0px;
@@ -134,16 +150,20 @@ footer {
   margin-top: 16px;
   padding-bottom: 0;
 }
+
 .dot {
   margin: 0 10px;
 }
+
 .aktif {
   width: 47px;
   border-top: 3px solid #ff7575;
 }
+
 .aktif a {
   color: #ff7575 !important;
 }
+
 .page {
   color: #909090;
   padding-top: 108px;
@@ -152,10 +172,12 @@ footer {
   list-style: none;
   gap: 36px;
 }
+
 .page div {
   text-align: center;
   padding-top: 15px;
 }
+
 .page a {
   color: #909090;
   padding-top: 10px;
@@ -163,15 +185,32 @@ footer {
   font-style: italic;
   font-size: 27px;
 }
+
 .footer {
   text-align: center;
-  margin-top: 0px;
-  padding-top: 10px;
+  border-radius: 20px;
   justify-content: center;
+  padding: 10px;
   background-color: #4699e0;
   font-size: 19px !important;
 }
+
+.kiri {
+  display: flex;
+  padding-left: 200px;
+}
+
+.kiri p {
+  font-size: 30px;
+}
+
+.kanan {
+  padding-right: 200px;
+}
+
 .bk {
-  margin-top: 40px !important;
-  margin-left: 16px !important;
+  display: flex;
+  align-self: center;
+  height: fit-content;
+  margin-left: 15px;
 }
